@@ -1,4 +1,6 @@
 {
+    "root": true,
+    "parser": "babel-eslint",
     "env": {
         "browser": true,
         "es2021": true
@@ -12,8 +14,13 @@
         "sourceType": "module"
     },
     "plugins": [
-        "vue"
+        "vue",
+        "html"
     ],
     "rules": {
+        "comma-dangle": [2, "never"],
+        "no-underscore-dangle": 0,
+        "no-param-reassign": 0,
+        "func-names": 0
     }
 }
