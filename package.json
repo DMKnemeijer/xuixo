@@ -1,0 +1,31 @@
+{
+  "name": "@bakery/xuixo",
+  "version": "0.0.1",
+  "description": "BREAD endpoint generator for Vuex 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DMKnemeijer/xuixo.git"
+  },
+  "keywords": [
+    "vuejs",
+    "crud",
+    "bread",
+    "vuex"
+  ],
+  "author": "Danny Knemeijer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DMKnemeijer/xuixo/issues"
+  },
+  "homepage": "https://github.com/DMKnemeijer/xuixo#readme",
+  "peerDependencies": {
+    "vue": "^2.7.16"
+  },
+  "dependencies": {
+    "vuex": "^3.6.2"
+  }
+}
